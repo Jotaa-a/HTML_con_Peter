@@ -1,0 +1,44 @@
+.container {
+    padding-left: 8cm;
+    padding-right: 8cm;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.left_div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.right_div {
+    text-align: left;    
+    font-size: 0.8cm;
+    padding: 1cm;
+}
+.divL_2 {
+    background-color: green;
+    font-size: 0.6cm;
+    text-align: center;
+    padding: 10%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+
+mark {
+    background-color: #ff66FF;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.container div {
+    border: 10px solid brown;
+    border-radius: 20px;
+}
+
+video {
+    width: 12cm;
+    height: 8cm;
+}
