@@ -1,44 +1,94 @@
+
+
 .container {
-    padding-left: 8cm;
-    padding-right: 8cm;
-    display: flex;
-    background-color: whitesmoke;
+    margin-left: 35%;
+    display: grid;
+    grid-template-rows: 5cm 5cm 6.5cm;
+    grid-template-columns: 7cm 7.5cm;
+    
 }
-
-.left_div {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-}
-
-.right_div {
-    text-align: left;    
-    font-size: 0.8cm;
-    padding: 1cm;
-}
-.divL_2 {
-    background-color: green;
-    font-size: 0.6cm;
-    text-align: center;
-    padding: 10%;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+.container1 {
+    margin-left: 35%;
+    display: grid;
+    grid-template-rows: 5cm 5cm 6.5cm;
+    grid-template-columns: 7cm 7.5cm;
     
 }
 
-mark {
-    background-color: #ff66FF;
-    color: black;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-weight: bold;
-}
-.container div {
-    border: 10px solid brown;
-    border-radius: 20px;
+.item {
+    border: 10px solid black;
 }
 
-video {
-    width: 12cm;
-    height: 8cm;
+
+.div_1 {
+    border-bottom: none;
+    border-top-left-radius: 20px;
+}
+
+.div_2 {
+    grid-row: span 2;
+    border-left: none;
+    border-top-right-radius: 20px;
+}
+
+.div_4 {
+    grid-column: span 2;
+    border-top: none;
+}
+.gif4 {
+    width: 13.95cm;
+    height: 6.25cm;
+}
+
+.gif3 {
+    width: 6.5cm;
+    height: 4.5cm;
+}
+
+.gif2 {
+    width: 7.16cm;
+    height: 9.45cm;
+    border-top-right-radius: 20px;
+
+}
+
+.gif1 {
+    width: 6.5cm;
+    height: 4.8cm;
+    border-top-left-radius: 20px;
+}
+
+.div_11 {
+    border-bottom: none;
+    border-top-left-radius: 20px;
+
+}
+
+.div_21 {
+    grid-row: span 2;
+    border-left: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.div_31 {
+    border-bottom-left-radius: 20px;
+}
+
+.gif31 {
+    width: 6.5cm;
+    height: 4.5cm;
+    border-bottom-left-radius: 18px;
+}
+
+.gif21 {
+    width: 7.16cm;
+    height: 9.45cm;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.gif11 {
+    width: 6.5cm;
+    height: 4.8cm;
+    border-top-left-radius: 20px;
 }
